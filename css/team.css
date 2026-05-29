@@ -4,7 +4,9 @@
 
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 72px;
 }
 
 .team-content-section {
@@ -60,4 +62,19 @@
 .team-item:hover .team-social-link,
 .team-social-link:focus {
   background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    flex-direction: row;
+    row-gap: 64px;
+    column-gap: 24px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .team-list {
+    gap: 24px;
+  }
 }
