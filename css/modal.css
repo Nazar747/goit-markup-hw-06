@@ -24,8 +24,8 @@
 .modal {
   background-color: #fcfcfc;
   border-radius: 4px;
-  max-width: 408px;
-  max-height: 584px;
+  max-width: 288px;
+  max-height: 624px;
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.2),
     0 1px 3px 0 rgba(46, 47, 66, 0.12),
@@ -62,6 +62,7 @@
   font-weight: 500;
   padding: 72px 24px 0px 24px;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .form-modal {
@@ -203,4 +204,18 @@
 .form-modal-button:hover,
 .form-modal-button:focus {
   background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    max-width: 408px;
+    max-height: 584px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .modal {
+    max-width: 408px;
+    max-height: 584px;
+  }
 }
