@@ -1,0 +1,24 @@
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.features-skills {
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.features-icon-section {
+  display: flex;
+  margin-bottom: 8px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: solid 1px #8e8f99;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
+}
