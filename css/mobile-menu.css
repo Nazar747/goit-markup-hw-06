@@ -28,6 +28,7 @@
   justify-content: space-between;
   padding-top: 72px;
   padding-bottom: 40px;
+  margin: 0;
 }
 
 .menu-close-button {
@@ -120,4 +121,10 @@
 
 .menu-social-icon {
   fill: #f4f4fd;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
 }
