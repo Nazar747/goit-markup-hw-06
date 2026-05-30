@@ -87,6 +87,7 @@
   line-height: 0;
   background-color: transparent;
   fill: #2e2f42;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
