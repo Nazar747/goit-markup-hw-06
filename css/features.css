@@ -18,6 +18,10 @@
   display: none;
 }
 
+.features-text {
+  font-weight: 500;
+}
+
 @media screen and (min-width: 768px) {
   .features-list {
     flex-direction: row;
@@ -61,5 +65,9 @@
     height: 112px;
     justify-content: center;
     align-items: center;
+  }
+
+  .features-text {
+    font-weight: 400;
   }
 }
