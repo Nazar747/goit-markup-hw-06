@@ -31,7 +31,7 @@
   text-align: center;
 }
 
-.footer-blocks {
+.footer .container {
   display: flex;
   flex-direction: column;
   row-gap: 72px;
@@ -140,7 +140,7 @@
     text-align: start;
   }
 
-  .footer-blocks {
+  .footer .container {
     align-items: start;
     flex-direction: row;
     flex-wrap: wrap;
@@ -161,7 +161,7 @@
     padding: 100px 0;
   }
 
-  .footer-blocks {
+  .footer .container {
     padding-left: 0;
   }
 
