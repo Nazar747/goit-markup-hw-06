@@ -145,6 +145,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 92px;
+    row-gap: 72px;
   }
 
   .form-subscribe {
